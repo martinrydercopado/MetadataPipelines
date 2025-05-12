@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ObjectNov24</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ObjectNov24s</value>
+    </caseValues>
+    <fields>
+        <label><!-- ObjectNov24 Date/Time --></label>
+        <name>ObjectNov24_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- ObjectNov24 Number --></label>
+        <name>ObjectNov24_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- ObjectNov24 Text --></label>
+        <name>ObjectNov24_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- ObjectNov24 URL --></label>
+        <name>ObjectNov24_URL__c</name>
+    </fields>
+    <layouts>
+        <layout>ObjectNov24 Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

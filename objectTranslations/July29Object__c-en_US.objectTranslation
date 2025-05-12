@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>July29Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>July29Objects</value>
+    </caseValues>
+    <fields>
+        <label><!-- July29 Date --></label>
+        <name>July29_Date__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

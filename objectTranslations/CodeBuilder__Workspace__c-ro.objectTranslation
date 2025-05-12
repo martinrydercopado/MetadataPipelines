@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Mediu --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Mediul --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Medii --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Mediile --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Mediului --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Mediului --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Mediilor --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Mediilor --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Token to prevent CSRF attacks --></label>
+        <name>CodeBuilder__CSRFToken__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error_State_Info --></label>
+        <name>CodeBuilder__Error_State_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Accessed --></label>
+        <name>CodeBuilder__Last_Accessed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remote Resource ID --></label>
+        <name>CodeBuilder__Remote_Resource_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>CodeBuilder__Status__c</name>
+    </fields>
+    <fields>
+        <help>Acesta este URL-ul spațiului de lucru. Se deschide în fereastră nouă.</help>
+        <label><!-- URL --></label>
+        <name>CodeBuilder__URL__c</name>
+    </fields>
+    
+    <layouts>
+        <layout>Workspace Layout</layout>
+        <sections>
+            <label>Linkuri personalizate</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Environment Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Workspace name cannot be changed --></errorMessage>
+        <name>CodeBuilder__CannotChangeWorkspaceName</name>
+    </validationRules>
+</CustomObjectTranslation>
