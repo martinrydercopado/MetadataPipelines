@@ -15507,6 +15507,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>MayObject__c.MayObject_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Monitored_Environments__c.Last_Monitoring_Log__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -24093,6 +24098,9 @@
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>MayObject__c-MayObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ObjectNov24__c-ObjectNov24 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -28686,10 +28694,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewMyTeamsDashboards</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewPersonalOrg</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
